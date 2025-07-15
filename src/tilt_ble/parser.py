@@ -69,7 +69,6 @@ class TiltBluetoothDeviceData(BluetoothData):
         temperature = major / temp_scalar
         specific_gravity = minor / grav_scalar
 
-
         _LOGGER.debug(
             "Tilt %s data: temp=%.3f, gravity=%.3f, power=%.2f",
             color,
